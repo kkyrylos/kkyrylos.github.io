@@ -1,0 +1,40 @@
+body {
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+}
+
+h1 {
+    color: #44dbd7;
+    font-family: roboto;
+    font-size: 72px;
+    margin-top: 0;
+    margin-bottom: .125em;
+    text-align: center;
+  }
+  
+  p {
+    background: #9adbd9;
+    font-family: calibri;
+    line-height: 1.25;
+    margin-bottom: 1.25em;
+  }
+  
+  figure {
+    border: 3px solid #064947;
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  
+  figure img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+  }
+  
+  p img {
+    float: right;
+    max-width: 30%;
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }
