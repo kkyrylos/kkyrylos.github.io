@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
-  display: flex; 
-  flex-direction: column; 
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   background-color: #FFD3BA;
   margin: 0;
@@ -37,18 +37,23 @@ h2 {
   margin-bottom: 0;
   margin-top: 60px;
 }
-  
+
 p {
   line-height: 1.25;
   margin-bottom: 1.25em;
 }
-  
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 figure {
   border: 3px solid #6F2DBD;
   padding: 10px;
   padding-bottom: 20px;
 }
-  
+
 figure img {
   width: 100%;
   height: auto;
@@ -63,22 +68,38 @@ figure.main-image {
 }
 
 figure.section-image {
-  float: right;
   background: #B298DC;
   color: #ffffff;
-  margin-bottom: 32px;
-  max-width: 400px;
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media all and (min-width: 768px) {
+  figure.section-image {
+    float: right;
+    margin-bottom: 32px;
+    max-width: 400px;
+  }
 }
 
 nav ul {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
   background-color: #6F2DBD;
   list-style: none;
   padding: 0;
   border-top: 1px solid #B9FAF8;
   border-bottom: 1px solid #B9FAF8;
+}
+
+@media all and (min-width: 376px) {
+  nav ul{
+    display: flex;
+    justify-content: center;
+  }
 }
 
 nav ul li {
