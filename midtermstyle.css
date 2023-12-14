@@ -1,0 +1,81 @@
+body {
+	background-color: #DEA47E;
+	color: black;
+	font-size: 16px;
+	font-family: Helvetica;
+}
+
+#wrapper {
+	max-width: 1200px;
+	min-width: 700px;
+	margin: 0 auto;
+	border: 3px solid #9E6240;
+	background-color:#F8F2DC;
+}
+
+header {
+	background-color: #81ADC8;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+  border-bottom: 3px solid #9E6240;
+}
+
+#flyer-title {
+  font-family: Trebuchet MS;
+  font-size: 24px;
+  color: black;
+}
+
+#event-name {
+  font-family: Verdana;
+  font-size: 42px;
+  background-color: #F8F2DC;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #9E6240;
+  border-top: 2px solid #9E6240;
+  color: #CD4631;
+}
+
+main {
+	background-color: #F8F2DC;
+	padding: 10px;
+}
+
+figure img{
+	max-width: 350px;
+  height: auto;
+}
+
+h3 {
+	font-family: Trebuchet MS;
+	font-size: 24px;
+	color: #CD4631;
+  margin-bottom: auto;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+.small-container {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+footer {
+	background-color: #81ADC8;
+	color: black;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+  border-top: 3px solid #9E6240;
+}
